@@ -28,7 +28,7 @@
     "assets/"
   ],
   "scripts": {
-    "postinstall": "cp -R assets/ $INIT_CWD/resources/assets"
+    "postinstall": "cp -R assets/ $INIT_CWD/resources/"
   },
   "devDependencies": {},
   "dependencies": {
