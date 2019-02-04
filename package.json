@@ -3,7 +3,7 @@
   "version": "0.0.11",
   "description": "Base scaffolding for web projects",
   "author": "Nectar Estudio <webmaster@nectarestudio.com>",
-  "homepage": "https://www.nectareswtudio.com",
+  "homepage": "https://www.nectarestudio.com",
   "repository": {
     "type": "git",
     "url": "git://github.com/nectarestudio/orange-juice.git"
