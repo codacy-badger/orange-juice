@@ -27,6 +27,9 @@
   "files": [
     "assets/"
   ],
+  "scripts": {
+    "assets": "cp -R assets/ resources/assets"
+  },
   "devDependencies": {},
   "dependencies": {
     "swiper": "^4.4.6"
