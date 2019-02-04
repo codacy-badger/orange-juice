@@ -28,10 +28,9 @@
     "assets/"
   ],
   "scripts": {
+    "preinstall": " npm install --save swiper",
     "postinstall": "cp -R assets/ $INIT_CWD/resources/"
   },
   "devDependencies": {},
-  "dependencies": {
-    "swiper": "^4.4.6"
-  }
+  "dependencies": {}
 }
