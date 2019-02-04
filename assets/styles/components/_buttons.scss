@@ -1,0 +1,60 @@
+.button {
+  cursor: pointer;
+
+  &[data-loading] {
+    pointer-events: none;
+  }
+}
+
+.button,
+.button * {
+  transition: all $transition-base;
+}
+
+
+.button--round {
+  border-radius: $border-radius-xs;
+
+  &::before,
+  &::after {
+    border-radius:  $border-radius-xs;
+  }
+}
+
+.button--rounder {
+  border-radius: $border-radius-uxl;
+
+  &::before,
+  &::after {
+    border-radius: $border-radius-uxl;
+  }
+}
+
+.button--full {
+  width: 100%;
+}
+
+.button--border-thin,
+.button--border-thick {
+  border-style: solid;
+}
+
+.button--border-thin {
+  border-width: $border-thin;
+}
+
+.button--border-thick {
+  border-width: $border-thick;
+}
+
+.button__icon {
+  height: 100% !important;
+
+  i {
+    height: 100% !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}

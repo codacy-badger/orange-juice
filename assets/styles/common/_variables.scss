@@ -1,0 +1,71 @@
+$font-size-root: 16px !default;
+
+$font-size-xs: 0.5rem !default;     // 8px
+$font-size-sm: 0.75rem !default;    // 12px
+$font-size-md: 0.875rem !default;   // 14px
+$font-size-base: 1rem !default;     // 16px
+$font-size-lg: 1.125rem !default;   // 18px
+$font-size-xl: 1.5rem !default;     // 24px
+$font-size-uxl: 1.75rem !default;   // 38px
+
+$line-height-sm: 1.25 !default;
+$line-height-base: 1.5 !default;
+$line-height-lg: 2 !default;
+$line-height-xl: 2.5 !default;
+
+$font-weight-light: 300 !default;
+$font-weight-base: 400 !default;
+$font-weight-medium: 500 !default;
+
+$margin-size-xs: 0.25rem !default;  // 4px
+$margin-size-sm: 0.5rem !default;   // 8px
+$margin-size-md: 0.75rem !default;  // 12px
+$margin-size-base: 1rem !default;   // 16px
+$margin-size-lg: 1.5rem !default;   // 24px
+$margin-size-xl: 1.75rem !default;  // 28px
+$margin-size-uxl: 2rem !default;    // 32px
+
+$padding-size-xs: 0.25rem !default; // 4px
+$padding-size-sm: 0.5rem !default;  // 8px
+$padding-size-md: 0.75rem !default; // 12px
+$padding-size-base: 1rem !default;  // 16px
+$padding-size-lg: 1.5rem !default;  // 24px
+$padding-size-xl: 1.75rem !default; // 28px
+$padding-size-uxl: 2rem !default;   // 32px
+
+$border-thin: 0.125rem !default;    // 2px
+$border-thick: 0.25rem !default;    // 4px
+
+$border-radius-xs: 0.25rem !default;
+$border-radius-sm: 0.5rem !default;
+$border-radius-md: 0.75rem !default;
+$border-radius-base: 1rem !default;
+$border-radius-lg: 1.5rem !default;
+$border-radius-xl: 1.75rem !default;
+$border-radius-uxl: 2rem !default;
+
+$color-dark-transparent-05: rgba(0, 0, 0, 0.05) !default;
+$color-dark-transparent-15: rgba(0, 0, 0, 0.15) !default;
+$color-dark-transparent-25: rgba(0, 0, 0, 0.25) !default;
+$color-dark-transparent-50: rgba(0, 0, 0, 0.5) !default;
+$color-dark-transparent-75: rgba(0, 0, 0, 0.75) !default;
+$color-dark-transparent-80: rgba(0, 0, 0, 0.8) !default;
+
+$color-light-transparent-05: rgba(255, 255, 255, 0.05) !default;
+$color-light-transparent-15: rgba(255, 255, 255, 0.15) !default;
+$color-light-transparent-25: rgba(255, 255, 255, 0.25) !default;
+$color-light-transparent-50: rgba(255, 255, 255, 0.5) !default;
+$color-light-transparent-75: rgba(255, 255, 255, 0.75) !default;
+$color-light-transparent-80: rgba(255, 255, 255, 0.8) !default;
+
+$transition-ultrafast: 500ms cubic-bezier(0.19, 1, 0.22, 1);
+$transition-fast: 100ms cubic-bezier(0.165, 0.84, 0.44, 1);
+$transition-base: 200ms cubic-bezier(0.165, 0.84, 0.44, 1);
+$transition-slow: 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+$transition-ultra-slow: 600ms cubic-bezier(0.165, 0.84, 0.44, 1);
+
+
+
+$body-z-index: 100 !default;
+$menu-z-index: 500 !default;
+$modal-z-index: 1000 !default;
