@@ -1,12 +1,12 @@
 import Swiper from 'swiper';
 
-export let swiperInstance, swiperMiniInstance
+export let swiperInstance, swiperMiniInstance;
 
-export function swiperInit(mainContainer, swiperObject, swiperDirection, swiperPagination, loop, prevButton, nextButton) {
+export function swiperInit(mainContainer, swiperObject, swiperDirection, swiperPagination, loopValue, prevButton, nextButton) {
   swiperObject = new Swiper(mainContainer, {
     // Optional parameters
     direction: swiperDirection,
-    loop: loop,
+    loop: loopValue,
     speed: 600,
     parallax: true,
     autoplay: {
@@ -22,27 +22,27 @@ export function swiperInit(mainContainer, swiperObject, swiperDirection, swiperP
     pagination: {
       el: swiperPagination,
       type: 'fraction',
-      renderFraction: function (currentClass, totalClass) {
+      renderFraction(currentClass, totalClass) {
         return '<div class="pagination__item flex-item ' + currentClass + '"></div>' +
           '<div class="pagination__bar flex-item"></div>' +
           '<div class="pagination__item flex-item ' + totalClass + '"></div>';
       },
     },
   })
-  swiperInstance = swiperObject
+  swiperInstance = swiperObject;
 }
 
-export function swiperMiniInit(mainContainer, swiperObject, swiperDirection, loop) {
+export function swiperMiniInit(mainContainer, swiperObject, swiperDirection, loopValue) {
   swiperObject = new Swiper(mainContainer, {
     // Optional parameters
     direction: swiperDirection,
-    loop: loop,
+    loop: loopValue,
     speed: 800,
     effect: 'fade',
     fadeEffect: {
       crossFade: true,
     },
     parallax: true,
-  })
-  swiperMiniInstance = swiperObject
+  });
+  swiperMiniInstance = swiperObject;
 }
