@@ -28,7 +28,7 @@ export function swiperInit(mainContainer, swiperObject, swiperDirection, swiperP
           '<div class="pagination__item flex-item ' + totalClass + '"></div>';
       },
     },
-  })
+  });
   swiperInstance = swiperObject;
 }
 
