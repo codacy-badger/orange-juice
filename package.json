@@ -3,7 +3,7 @@
   "version": "0.0.12",
   "description": "Base scaffolding for web projects",
   "author": "Nectar Estudio <webmaster@nectarestudio.com>",
-  "homepage": "https://www.nectarestudio.com",
+  "homepage": "https://github.com/nectarestudio/orange-juice#readme",
   "repository": {
     "type": "git",
     "url": "git://github.com/nectarestudio/orange-juice.git"
@@ -13,8 +13,8 @@
   },
   "licenses": [
     {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
+      "type": "gpl-3.0",
+      "url": "https://opensource.org/licenses/GPL-3.0"
     }
   ],
   "keywords": [
