@@ -11,12 +11,7 @@
   "bugs": {
     "url": "https://github.com/nectarestudio/orange-juice/issues"
   },
-  "licenses": [
-    {
-      "type": "gpl-3.0",
-      "url": "https://opensource.org/licenses/GPL-3.0"
-    }
-  ],
+  "license": "gpl-3.0",
   "keywords": [
     "orange-juice",
     "npm",
